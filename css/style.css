@@ -1,0 +1,182 @@
+body {
+  background: white !important;
+  font-family: alivenowAudiFont;
+}
+
+@font-face {
+  font-family: alivenowAudiFont;
+  src: url("../font/CAMPTON-BOOK.OTF");
+}
+
+@font-face {
+  font-family: alivenowAudiFontBold;
+  src: url("../font/CAMPTON-BOLDDEMO.OTF");
+}
+
+p {
+  text-align: center;
+}
+
+input[type="checkbox"] {
+  background: #000000 !important;
+}
+#city {
+  color: #6e7780;
+}
+
+.form-control {
+  outline: none !important;
+}
+
+.containerForm {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+}
+.demoOnly {
+  color: red !important;
+  padding-top: 16px;
+}
+
+.btn,
+.btn:hover,
+.btn:visited {
+  background-color: #000000;
+  border: none;
+}
+
+#submit {
+  margin: 0 auto !important;
+  display: block;
+  border-radius: inherit;
+  width: 110px;
+}
+
+.error {
+  text-align: center;
+  color: red;
+  padding-bottom: 12px;
+}
+
+input:focus {
+  outline: none !important;
+  border: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active {
+  background-color: #000000;
+  border: none !important;
+  outline: none;
+}
+
+.titletext {
+  text-align: center;
+  font-size: 23px;
+  font-family: alivenowAudiFontBold;
+}
+
+#Eighthwall {
+  width: 35%;
+  float: left;
+  padding-left: 21px;
+  padding-top: 8px;
+}
+
+#alivenowLogo {
+  width: 30%;
+  float: right;
+  padding-right: 18px;
+  padding-top: 10px;
+}
+
+.form-group {
+  width: 90%;
+  margin: 0 auto;
+  padding: 6px;
+}
+
+@media only screen and (min-width: 601px) {
+  .containerForm {
+    width: 100%;
+  }
+
+  .mngtDiv {
+    background: url(../images/Form-BG.jpg);
+    padding-top: 50px;
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: 85px;
+    position: fixed;
+    width: 100%;
+  }
+
+  .car {
+    width: 17%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  #checkBox3 {
+    position: relative;
+    right: -25px;
+    position: relative;
+    margin-bottom: 2px;
+    vertical-align: text-bottom;
+  }
+
+  #Eighthwall {
+    width: 148px;
+    float: left;
+    padding-left: 21px;
+    padding-top: 8px;
+    z-index: 10000;
+    position: relative;
+  }
+
+  #alivenowLogo {
+    width: 148px;
+    float: right;
+    padding-right: 18px;
+    padding-top: 10px;
+    z-index: 10000;
+    position: relative;
+  }
+
+  .form-group {
+    width: 400px;
+    margin: 0 auto;
+    padding: 6px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .mngtDiv {
+    background: url(../images/Form-BG.jpg);
+    background-size: 100% 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: fixed;
+    margin-top: 108px;
+  }
+
+  .car {
+    width: 40%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .titletext {
+    text-align: center;
+    font-size: 21px;
+    font-family: alivenowAudiFontBold;
+  }
+
+  #checkBox3 {
+    position: relative;
+    right: -8%;
+    margin-bottom: 2px;
+    vertical-align: text-bottom;
+  }
+}
